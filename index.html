@@ -150,7 +150,79 @@
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
-            <tr>
+          <tr onmouseout="ucsd_stop()" onmouseover="ucsd_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ucsd_image'><img src='images/UCSD_Seal_logo.png'></div>
+                  <img src='images/UCSD_Seal_logo.png'>
+                </div>
+                <script type="text/javascript">
+                  function ucsd_start() {
+                    document.getElementById('ucsd_image').style.opacity = "1";
+                  }
+
+                  function ucsd_stop() {
+                    document.getElementById('ucsd_image').style.opacity = "0";
+                  }
+                  ucsd_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:right">
+                <strong>UC San Diego</strong>, La Jolla, USA
+                <br>
+                PhD in Data Science (Machine Learning), Sep 2024 - Now
+              </td>
+            </tr>
+
+            <tr onmouseout="cam_stop()" onmouseover="cam_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='cam_image'><img src='images/University_Crest.jpg'></div>
+                  <img src='images/University_Crest.jpg'>
+                </div>
+                <script type="text/javascript">
+                  function cam_start() {
+                    document.getElementById('cam_image').style.opacity = "1";
+                  }
+
+                  function cam_stop() {
+                    document.getElementById('cam_image').style.opacity = "0";
+                  }
+                  cam_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:right">
+                <strong>University of Cambridge</strong>, Cambridge, UK
+                <br>
+                MPhil in Machine Learning and Machine Intelligence, Oct 2022 - Sep 2023
+              </td>
+            </tr>
+
+            <tr onmouseout="ucl_stop()" onmouseover="ucl_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ucl_image'><img src='images/2560px-University_College_London_logo.png'></div>
+                  <img src='images/2560px-University_College_London_logo.png'>
+                </div>
+                <script type="text/javascript">
+                  function ucl_start() {
+                    document.getElementById('ucl_image').style.opacity = "1";
+                  }
+
+                  function ucl_stop() {
+                    document.getElementById('ucl_image').style.opacity = "0";
+                  }
+                  ucl_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:right">
+                <strong>University College London</strong>, London, UK
+                <br>
+                BSc (Hons) in Statistics, Sep 2019 - June 2022
+              </td>
+            </tr>
+            
+            <!-- <tr>
               <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
               <td width="75%" valign="center">
                 <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
@@ -177,10 +249,10 @@
                 <br>
                 <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
               </td>
-            </tr>
+            </tr> -->
             
 
-            <tr>
+            <!-- <tr>
               <td align="center" style="padding:20px;width:25%;vertical-align:middle">
                 <h2>Basically <br> Blog Posts</h2>
               </td>
@@ -193,7 +265,7 @@
                 <br>
                 <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
               </td>
-            </tr>
+            </tr> -->
             
             
           </tbody></table>
