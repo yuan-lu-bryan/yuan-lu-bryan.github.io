@@ -22,11 +22,11 @@
                 <p class="name" style="text-align: center;">
                   Yuan Lu
                 </p>
-                <p>I'm an incoming PhD student at <a href="https://datascience.ucsd.edu/"> the Halıcıoğlu Data Science Institute, UC San Diego</a> and I will be supervised by <a href="http://yusu.belkin-wang.org/"> Professor Yusu Wang</a>. 
+                <p>I'm an incoming PhD student at <a href="https://datascience.ucsd.edu/"> the Halıcıoğlu Data Science Institute, UC San Diego</a> and I will be supervised by Prof.<a href="http://yusu.belkin-wang.org/"> Yusu Wang</a>. 
                 </p>
                 <p>
-                  Prior to my PhD, I earned my Master's degree in <a href="https://www.mlmi.eng.cam.ac.uk/"> Machine Learning </a> at the University of Cambridge, where I was supervised by <a href="https://www.cst.cam.ac.uk/people/pl219"> Professor Pietro Liò</a>. 
-                  I obtained my undergraduate degree in Statisical Sciences at UCL, advised by <a href="https://fxbriol.github.io/"> Dr François-Xavier Briol</a>.
+                  Prior to my PhD, I earned my Master's degree in <a href="https://www.mlmi.eng.cam.ac.uk/"> Machine Learning </a> at the University of Cambridge, where I was supervised by Prof.<a href="https://www.cst.cam.ac.uk/people/pl219"> Pietro Liò</a>. 
+                  I obtained my undergraduate degree in Statisical Sciences at UCL, advised by Dr.<a href="https://fxbriol.github.io/"> François-Xavier Briol</a>.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:yul331@ucsd.edu">Email</a> &nbsp;/&nbsp;
@@ -41,12 +41,14 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My current research interests include geometric & topological deep learning, graph neural networks, generative modelling, and machine learning for computational biology. 
+                  My current research interests include geometric & topological deep learning, graph neural networks, deep generative modelling, and their applications in computational biology 
+                  (specifically, drug discovery and biological foundation models for DNA, RNA, and proteins). 
+                  In the past, I also did research on Bayesian nonparametrics such as Gaussian processes and Bayesian optimization.
                 </p>
               </td>
             </tr>
@@ -105,8 +107,8 @@
             <tr onmouseout="ames_stop()" onmouseover="ames_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='ames_image'><img src='images/Attentional_Message_Passing_with_Grad_small.png'></div>
-                  <img src='images/Attentional_Message_Passing_with_Grad_small.png'>
+                  <div class="two" id='ames_image'><img src='images/Attentional_Message_Passing_with_Grad.png' style="position:relative; top:25px;", width="160", height="100"></div>
+                  <img src='images/Attentional_Message_Passing_with_Grad.png' style="position:relative; top:25px;", width="160", height="100">
                 </div>
                 <script type="text/javascript">
                   function ames_start() {
@@ -128,7 +130,7 @@
                 <a href="https://www.linkedin.com/in/ocariz/">Haitz Sáez de Ocáriz Borde</a>,
                 <a href="https://www.cst.cam.ac.uk/people/pl219">Pietro Liò</a>
                 <br>
-                <em>NeurIPS 2023 Workshop on Symmetry and Geometry in Neural Representations</em>, 2023
+                <em>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</em>, 2023
                 <br>
                 <a href="https://arxiv.org/pdf/2311.11891">arxiv</a> 
                 <br>
@@ -136,8 +138,39 @@
                 <p>We developed a differentiable framework for quantifying and selecting latent geometric spaces for graph inference.</p>
               </td>
             </tr>
+          
+            <tr onmouseout="thesis_stop()" onmouseover="thesis_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='thesis_image'><img src='images/UCB_GP.jpg' style="position:relative; top:25px;", width="160"></div>
+                  <img src='images/UCB_GP.jpg' style="position:relative; top:25px;", width="160">
+                </div>
+                <script type="text/javascript">
+                  function thesis_start() {
+                    document.getElementById('thesis_image').style.opacity = "1";
+                  }
 
-
+                  function thesis_stop() {
+                    document.getElementById('thesis_image').style.opacity = "0";
+                  }
+                  thesis_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://drive.google.com/file/d/16cyhi0_XTBH4Kzo4k4hvatLsOHETxZlK/view?usp=sharing">
+                  <span class="papertitle">Robust Wind Farm Layout via Bayesian Optimization</span>
+                </a>
+                <br>
+                <strong>Yuan Lu</strong>
+                <br>
+                <em>Bachelor Thesis</em>, 2022
+                <br>
+                <p></p>
+                <p>We applied Robust Bayesian Optimization algorithms to offshore wind farm layout modelling.</p>
+              </td>
+            </tr>
+            
+      
           </tbody></table>
 
           
@@ -147,14 +180,15 @@
                 <h2>Education</h2>
               </td>
             </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
-          <tr onmouseout="ucsd_stop()" onmouseover="ucsd_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+          </tbody></table>
+          <table width="100%" align="center" border="0" class="no-spacing" cellspacing="0" cellpadding="20"><tbody>
+            
+           <tr onmouseout="ucsd_stop()" onmouseover="ucsd_start()">
+              <td style="padding-bottom:0px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='ucsd_image'><img src='images/UCSD_Seal_logo.png'></div>
-                  <img src='images/UCSD_Seal_logo.png'>
+                  <div class="two" id='ucsd_image'><img src='images/UCSD_Seal_logo.png' style="position:relative; top:25px;", width="100", height="100"></div>
+                  <img src='images/UCSD_Seal_logo.png' style="position:relative; top:25px;", width="100", height="100">
                 </div>
                 <script type="text/javascript">
                   function ucsd_start() {
@@ -167,18 +201,25 @@
                   ucsd_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:right">
-                <strong>UC San Diego</strong>, La Jolla, USA
+              <td style="padding-bottom:0px;width:75%;vertical-align:middle",valign="center">
+                <strong>University of California San Diego</strong>
                 <br>
-                PhD in Data Science (Machine Learning), Sep 2024 - Now
+                 Sep 2024 - Now
+                 <br>
+                 <br>
+                 <strong>PhD in Data Science (Machine Learning)</strong>
+                 <br>
+                 Supervisor: Prof.<a href="http://yusu.belkin-wang.org/"> Yusu Wang</a>
+
+
               </td>
             </tr>
 
             <tr onmouseout="cam_stop()" onmouseover="cam_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding-bottom:0px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='cam_image'><img src='images/University_Crest.jpg'></div>
-                  <img src='images/University_Crest.jpg'>
+                  <div class="two" id='cam_image'><img class='resize_fit_center', src='images/University_Crest.jpg' style="position:relative; top:25px;", width="100", height="117"></div>
+                  <img class='resize_fit_center', src='images/University_Crest.jpg' style="position:relative; top:25px;", width="100", height="117">
                 </div>
                 <script type="text/javascript">
                   function cam_start() {
@@ -191,18 +232,25 @@
                   cam_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:right">
-                <strong>University of Cambridge</strong>, Cambridge, UK
+              <td style="padding-bottom:0px;width:75%;vertical-align:middle">
+                <strong>University of Cambridge</strong>
                 <br>
-                MPhil in Machine Learning and Machine Intelligence, Oct 2022 - Sep 2023
+                 Oct 2022 - Sep 2023
+                 <br>
+                 <br>
+                 <strong>MPhil in Machine Learning and Machine Intelligence</strong> 
+                 <br>
+                 Supervisor: Prof.<a href="https://www.cst.cam.ac.uk/people/pl219"> Pietro Liò</a>
+                 <br>
+                 Mentor: <a href="https://www.linkedin.com/in/ocariz/">Haitz Sáez de Ocáriz Borde</a>
               </td>
             </tr>
 
             <tr onmouseout="ucl_stop()" onmouseover="ucl_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding-bottom:0px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='ucl_image'><img src='images/2560px-University_College_London_logo.png'></div>
-                  <img src='images/2560px-University_College_London_logo.png'>
+                  <div class="two" id='ucl_image'><img src='images/ucl_brand.png' style="position:relative; top:25px;", width="100", height="100"></div>
+                  <img src='images/ucl_brand.png' style="position:relative; top:25px;", width="100", height="100">
                 </div>
                 <script type="text/javascript">
                   function ucl_start() {
@@ -215,10 +263,17 @@
                   ucl_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:right">
+              <td style="padding-bottom:0px;width:75%;vertical-align:middle">
                 <strong>University College London</strong>, London, UK
                 <br>
-                BSc (Hons) in Statistics, Sep 2019 - June 2022
+                Sep 2019 - June 2022
+                <br>
+                <br>
+                <strong>BSc (Hons) in Statistics</strong>
+                <br>
+                Supervisor: Dr.<a href="https://fxbriol.github.io/"> François-Xavier Briol</a>
+                
+                
               </td>
             </tr>
             
@@ -269,6 +324,36 @@
             
             
           </tbody></table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Awards</h2>
+                <p>
+                  <ul>
+                    <li>Halıcıoğlu Data Science Institute First Year PhD Fellowship, 2024</li>
+                    <li>UCL Faculty of Mathematical & Physical Sciences Dean's List, 2022</li>
+                    <li>UCL Department of Statistical Science First Year Sessional Prize, 2020</li>
+                </ul>                
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Misc</h2>
+                <p>
+                   I am a big fan of Gundam, especially <a href="https://en.wikipedia.org/wiki/Mobile_Suit_Zeta_Gundam"> Zeta Gundam</a>. 
+                   <br>
+                   My favourite Chinese singer is <a href="https://en.wikipedia.org/wiki/David_Tao"> David Tao </a> and my favorite song of him is <a href="https://open.spotify.com/track/4rzTxZaFsTXQN54WimO4QU">'Close to you' (天天) </a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
